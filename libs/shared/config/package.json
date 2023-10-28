@@ -1,0 +1,12 @@
+{
+  "name": "@shared/config",
+  "version": "1.0.0",
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tamagui-build",
+    "watch": "tamagui-build --watch"
+  }
+}
